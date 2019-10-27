@@ -36,5 +36,5 @@
     "customize-cra": "^0.8.0",
     "react-app-rewired": "^2.1.4"
   },
-  "homepage" : "http://wangshuaifeng.github.io/mimikoi-h5"
-}
+  "homepage" : "http://wangshuaifeng.github.io/mimikoi-h5/build"
+} 
