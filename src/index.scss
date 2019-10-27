@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Source Sans Pro", Helvetica, Arial, 游ゴシック体, YuGothic, メイリオ, Meiryo, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  -webkit-tap-highlight-color: transparent
+}
+
+html,body{height: 100%}
+
+html {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased
+}
+
+#root {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none
+}

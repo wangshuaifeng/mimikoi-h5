@@ -1,0 +1,85 @@
+.convenience {
+    .dmm {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+        background: #FFFFFF;
+        display: inline-block;
+        padding: 0 15px;
+        font-weight: bold;
+        span {
+            font-size: 12px;
+        }
+    }
+    .container {
+        height: 100%;
+        padding: 0 15px;
+        padding-bottom: 20px;
+        background: rgb(217, 219, 219);
+        .title {
+            font-size: 14px;
+            height: 50px;
+            line-height: 50px;
+        }
+        .list {
+            background: #FFF;
+            border: 1px solid #EFEFEF;
+            margin-bottom: 20px;
+            .listItem {
+                padding: 0 10px;
+                min-height: 50px;
+                .juzhong {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+        .convenience-form {
+            // background: #FFF;
+            border: 2px solid #EFEFEF;
+            .title {
+                font-weight: 500;
+                line-height: 50px;
+            }
+            .convenience-form-select {
+                width: 100%;
+                padding: 0 10px;
+                border-bottom: 2px solid #EFEFEF;
+                .hint {
+                    color: #888;
+                    height: 50px;
+                    line-height: 50px;
+                }
+            }
+            .convenience-form-input {
+                width: 100%;
+                padding: 0 10px;
+                .hint {
+                    color: #888;
+                    height: 30px;
+                    line-height: 30px;
+                }
+            }
+        }
+        .convenience-submit {
+            text-align: center;
+            padding: 20px 0;
+            .text {
+                line-height: 1.5;
+            }
+            .button {
+                background-image: linear-gradient( rgb(255, 228, 22),rgb(257,173,27));
+                margin: 10px auto;
+                width: 80%;
+            }
+        }
+    }
+    .footer {
+        height: 60px;
+        padding: 20px;
+        text-align: center;
+        background: #FFF;
+    }
+}
