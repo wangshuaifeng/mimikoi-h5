@@ -14,6 +14,7 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
+    "deploy": "gh-pages -d build",
     "test": "react-app-rewired test --env=jsdom"
   },
   "eslintConfig": {
@@ -36,5 +37,5 @@
     "customize-cra": "^0.8.0",
     "react-app-rewired": "^2.1.4"
   },
-  "homepage" : "http://wangshuaifeng.github.io/mimikoi-h5/build"
+  "homepage" : "./"
 } 
