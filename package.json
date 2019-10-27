@@ -35,5 +35,6 @@
     "babel-plugin-import": "^1.12.2",
     "customize-cra": "^0.8.0",
     "react-app-rewired": "^2.1.4"
-  }
+  },
+  "homepage" : "http://wangshuaifeng.github.io/mimikoi-h5"
 }
